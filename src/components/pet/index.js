@@ -20,9 +20,9 @@ const Pet = ({ animal }) => {
           }
         </div>
         <h3>{animal.name}</h3>
-        <p>Breed: {animal.breeds.primary}</p>
-        <p>Color: {animal.colors.primary}</p>
-        <p>Gender: {animal.gender}</p>
+        <p><span className="breed">Breed:</span> {animal.breeds.primary}</p>
+        <p><span className="breed">Color:</span> {animal.colors.primary}</p>
+        <p><span className="breed">Gender:</span> {animal.gender}</p>
       </article>
     </a>
   );
