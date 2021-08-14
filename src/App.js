@@ -14,11 +14,14 @@ function App() {
         <Route path='/:type/:id'>
           <PetDetailsPage />
         </Route>
+        <Route path='/search'>
+          <SearchPage />
+        </Route>
         <Route path='/:type?'>
           <HomePage />
         </Route>
       </Switch>
-      
+
     </Router>
   );
 }
