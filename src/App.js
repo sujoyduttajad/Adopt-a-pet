@@ -1,4 +1,5 @@
 import HomePage from './pages/home';
+import './index.css'
 import SearchPage from './pages/search';
 import PetDetailsPage from './pages/detail';
 import PetDetailsNotFound from './pages/petDetailsNotFound';

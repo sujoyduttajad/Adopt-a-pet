@@ -7,7 +7,7 @@ const Pet = ({ animal }) => {
       href={`/${animal.type.toLowerCase()}/${animal.id}`}
       className="pet"
     >
-      <article>
+      <article className="card">
         <div className="pet-image-container">
           {
             <img
