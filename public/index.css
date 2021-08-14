@@ -150,7 +150,12 @@ body {
   margin-bottom: 4px;
   margin-top: 0;
 }
-
+.pet p > span {
+  font-weight: 600;
+}
+.breed {
+  font-weight: 600;
+}
 .prompt {
   text-align: center;
 }
@@ -205,6 +210,4 @@ body {
   padding: 32px 0;
 }
 
-.breed {
-  font-weight: 600;
-}
+
